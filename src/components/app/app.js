@@ -37,7 +37,7 @@ class App extends Component{
             increase: false,
             rise: false,
             id: this.maxId++
-        }
+        }``
         this.setState(({data}) => {
             const newArr = [...data, newItem];
             return {
